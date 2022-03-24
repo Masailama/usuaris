@@ -4,3 +4,7 @@ OPTION_FONT = ("Segoe UI", 12, "bold")
 # Colors
 ACTIVE_OPTION = "SteelBlue1"
 BG_BUTTON = "SteelBlue3"
+
+# Variables
+DATA_BASE = "users.db"
+TABLE = "CREATE TABLE IF NOT EXISTS USERS (ID INTEGER PRIMARY KEY, USER TEXT, PASSWORD TEXT)"
